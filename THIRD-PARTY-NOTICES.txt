@@ -1,0 +1,129 @@
+OMNIWFN - THIRD-PARTY NOTICES
+
+OmniWfn is proprietary software, licensed under EULA.txt. It includes,
+or is built on, the third-party components and data listed below, which
+remain under their own licenses. Nothing in EULA.txt limits the rights
+those licenses give you in those components.
+
+
+1. ELECTRON AND CHROMIUM
+
+OmniWfn runs on Electron (https://www.electronjs.org), which includes
+Chromium and other components under their own licenses. Their full
+license texts are installed with OmniWfn, in the folder that holds
+OmniWfn.exe, as LICENSE.electron.txt and LICENSES.chromium.html.
+
+Electron is licensed under the MIT License:
+
+  Copyright (c) Electron contributors
+  Copyright (c) 2013-2020 GitHub Inc.
+
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+2. THREE.JS
+
+OmniWfn's 3D views use three.js (https://threejs.org), licensed under
+the MIT License:
+
+  The MIT License
+
+  Copyright (c) 2010-2024 three.js authors
+
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+3. MULTIWFN
+
+Multiwfn is a program by Tian Lu (http://sobereva.com/multiwfn). It is
+not included with OmniWfn. The functions of OmniWfn that run Multiwfn
+use a copy of Multiwfn that you install yourself, under Multiwfn's own
+license. OmniWfn is not made, endorsed or supported by Multiwfn's
+author.
+
+OmniWfn implements many of Multiwfn's analysis methods and conventions,
+writes files in Multiwfn's formats, reproduces the text of Multiwfn's
+menus so that Multiwfn keystroke paths can be answered, and includes
+data distributed with Multiwfn 2026.9.20:
+
+  - spherically averaged radial densities of free atoms and ions
+    (Multiwfn's examples/atmrad), for Hirshfeld-I;
+  - free-atom wavefunctions, H-Kr (Multiwfn's examples/atomwfn);
+  - sphericalized free-atom densities and Slater-function fits
+    (atmraddens.f90), and atomic radii including Tian Lu's modified
+    CSD radii (define.f90).
+
+As Multiwfn's license asks of code that incorporates any part of
+Multiwfn, its original papers are cited here:
+
+  Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+  Tian Lu, J. Chem. Phys., 161, 082503 (2024)
+
+If you publish results obtained with OmniWfn's Multiwfn-based methods,
+or with Multiwfn itself, cite these papers in the main text.
+
+Multiwfn's license, as distributed with Multiwfn 2026.9.20:
+
+  LICENSE INFORMATION: To use Multiwfn, you are required to read and
+  agree the following terms:
+  (a) Currently Multiwfn is free of charge and open-source for both
+  academic and commerical usages, anyone is allowed to freely
+  distribute the original or their modified Multiwfn codes to others.
+  (b) Multiwfn can be distributed as a free component of commercial
+  code. Selling modified version of Multiwfn may also be granted,
+  however, obtaining prior consent from the original author of
+  Multiwfn (Tian Lu) is needed.
+  (c) If Multiwfn is utilized in your work, or your own code
+  incorporated any part of Multiwfn code, at least the following
+  original papers of Multiwfn MUST BE cited in main text your paper or
+  code:
+  Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+  Tian Lu, J. Chem. Phys., 161, 082503 (2024)
+  (d) There is no warranty of correctness of the results produced by
+  Multiwfn, the author of Multiwfn does not hold responsibility in any
+  way for any consequences arising from the use of the Multiwfn.
+
+
+4. LEBEDEV-LAIKOV ANGULAR GRIDS
+
+OmniWfn's integration grids use the Lebedev angular quadratures, with
+parameters from the Lebedev-Laikov code by D. N. Laikov and
+C. van Wuellen, whose users are asked to cite:
+
+  V. I. Lebedev, D. N. Laikov, "A quadrature formula for the sphere of
+  the 131st algebraic order of accuracy", Doklady Mathematics, 59,
+  477-481 (1999)

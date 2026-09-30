@@ -21,8 +21,9 @@ The downloads are not signed with a paid certificate, so Windows may show "Windo
 
 - **A finished calculation.** OmniWfn does not run quantum chemistry itself; it analyses the result. It opens:
   - Gaussian `.fchk` / `.fch`, or `.chk` if Gaussian's `formchk` is installed;
-  - `.wfn` and `.wfx` files;
-  - Molden files, for example from ORCA.
+  - `.wfn` and `.wfx` files, and Multiwfn's `.mwfn`;
+  - Molden files, for example from ORCA;
+  - Gaussian and ORCA output files, cube files, and structure files (`.xyz`, `.pdb`, `.cif`), for the analyses that need only those.
 - **Multiwfn (optional).** Almost every analysis runs in OmniWfn's own engine. A few menu functions, marked **Multiwfn**, need [Multiwfn](http://sobereva.com/multiwfn/), which you download separately and point to in Settings.
 
 ## What it does
@@ -42,11 +43,16 @@ The downloads are not signed with a paid certificate, so Windows may show "Windo
 - **Excited states:** hole and electron, natural transition orbitals and charge transfer.
 - **Sterics:** buried volume (%V_bur) and steric maps.
 - **Structure:** distances, angles, and measurements to ring centres and planes.
+- **Multiwfn by its keys:** every Multiwfn option is a button in the left panel. Keystroke Lookup finds an analysis from the keys you would type in Multiwfn, and warns when a key is not an option of the menu it is typed in. Multiwfn keystroke paths for QTAIM, fuzzy atoms and basins run in OmniWfn's own engine, with Multiwfn's menus and output.
 
 Every figure can be edited and exported for print (TIFF, PNG, PDF or SVG, up to 1200 dpi). 3D scenes also export for 3D printing and as interactive web pages.
 
 The numbers match Multiwfn's on the same files, and each native result shows the Multiwfn keystrokes that reproduce it. The [User Guide](../../releases/latest/download/OmniWfn-User-Guide.pdf) explains each analysis in plain words.
 
+## License
+
+OmniWfn is proprietary software. From version 0.3.0 on, it is licensed (not sold) under its **[End-User License Agreement](EULA.txt)**. The installer shows the agreement, and OmniWfn asks you to accept it the first time it starts. You may not copy, redistribute, modify or reverse-engineer OmniWfn. The components it is built on (Electron, Chromium, three.js) and the Multiwfn data and methods it uses keep their own licenses: see **[THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt)**.
+
 ## Credit
 
-OmniWfn reproduces methods implemented in Multiwfn by Tian Lu. If you publish results obtained with it, please also cite Multiwfn as its authors ask ([sobereva.com/multiwfn](http://sobereva.com/multiwfn/)). OmniWfn is not affiliated with Multiwfn.
+OmniWfn reproduces methods implemented in Multiwfn by Tian Lu. If you publish results obtained with it, please also cite Multiwfn as its author asks, in the main text: T. Lu, F. Chen, *J. Comput. Chem.* 33, 580 (2012), and T. Lu, *J. Chem. Phys.* 161, 082503 (2024) ([sobereva.com/multiwfn](http://sobereva.com/multiwfn/)). OmniWfn is not affiliated with Multiwfn.

@@ -1,0 +1,150 @@
+OMNIWFN END-USER LICENSE AGREEMENT
+
+Version 1.0, effective 30 September 2026 (OmniWfn 0.3.0 and later)
+
+Copyright (c) 2026 Hyunku Christian Kim, Jr. All rights reserved.
+
+IMPORTANT - READ CAREFULLY. This End-User License Agreement (the
+"Agreement") is a legal agreement between you (an individual, or the
+organization on whose behalf you use the Software) and
+Hyunku Christian Kim, Jr., the creator and owner of OmniWfn (the
+"Owner"). It governs your use of OmniWfn, including its installers and
+executables, its program and data files, its documentation, and any
+updates the Owner provides (together, the "Software").
+
+By installing, running or otherwise using the Software, or by selecting
+"I accept" when the Software asks, you agree to this Agreement. If you
+do not agree, do not install or use the Software, and delete any copy
+of it that you have.
+
+1. OWNERSHIP
+
+The Software was created by, and is owned by, Hyunku Christian Kim, Jr.
+The Software is licensed to you, not sold. The Owner retains all right,
+title and interest in and to the Software, including all copyrights and
+other intellectual-property rights in it, subject only to the rights of
+others in the third-party components described in Section 6.
+
+2. PERMISSION TO USE
+
+Subject to your compliance with this Agreement, the Owner grants you a
+personal, limited, non-exclusive, non-transferable, non-sublicensable
+and revocable permission to install and use the Software, in the form in
+which the Owner provides it, on computers that you own or control.
+
+3. RESERVATION OF RIGHTS
+
+All rights not expressly granted to you in this Agreement are reserved
+by the Owner. No right or license is granted to you by implication,
+estoppel or otherwise.
+
+4. RESTRICTIONS
+
+Except as this Agreement expressly permits, or as applicable law allows
+in a way that cannot be limited by contract, you may not, and may not
+allow anyone else to:
+
+  (a) copy the Software, in whole or in part, other than the copies
+      made automatically when you install and run it as permitted in
+      Section 2;
+
+  (b) distribute, publish, share, sell, rent, lease, lend, sublicense,
+      transfer, host or otherwise make the Software available to anyone
+      else, whether for payment or not;
+
+  (c) modify, adapt, translate or create derivative works of the
+      Software or of any part of it;
+
+  (d) reverse-engineer, decompile or disassemble the Software, or
+      otherwise attempt to derive its source code, structure, algorithms
+      or internal workings, including by unpacking or extracting its
+      application archive (such as app.asar) or its program files; or
+
+  (e) remove, alter or obscure any copyright, license or other notice
+      in the Software.
+
+5. YOUR FILES AND RESULTS
+
+The files you open with the Software, and the results you produce with
+it (tables, figures and exported files), belong to you or to whoever
+owns them. This Agreement gives the Owner no rights in them. When you
+publish results, cite the methods and programs they rest on, including
+Multiwfn where Section 6 applies.
+
+6. THIRD-PARTY COMPONENTS AND MULTIWFN
+
+  (a) The Software includes third-party components, such as Electron,
+      Chromium and three.js, that are licensed to you under their own
+      license terms. Those terms are listed or referenced in
+      THIRD-PARTY-NOTICES.txt and in the license files installed with
+      the Software. Nothing in this Agreement limits the rights that
+      those licenses give you in those components.
+
+  (b) Multiwfn is a separate program by Tian Lu. It is not part of the
+      Software and is not distributed with it. If you use the functions
+      of the Software that run Multiwfn, you obtain Multiwfn yourself
+      and use it under its own license. Parts of the Software implement
+      Multiwfn's methods and file formats, reproduce the text of its
+      menus so that its keystroke paths can be answered, and use data
+      distributed with Multiwfn. Those parts are subject to Multiwfn's
+      license terms, as described in THIRD-PARTY-NOTICES.txt. The
+      Software is not made, endorsed or supported by Multiwfn's author.
+
+7. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND
+WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY
+APPLICABLE LAW, THE OWNER DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS,
+IMPLIED, STATUTORY OR OTHERWISE, INCLUDING ANY IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+NON-INFRINGEMENT AND ACCURACY. THE OWNER DOES NOT WARRANT THAT THE
+SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED, OR THAT ITS RESULTS ARE
+CORRECT, COMPLETE OR FIT FOR ANY PURPOSE. SCIENTIFIC RESULTS PRODUCED
+WITH THE SOFTWARE MUST BE CHECKED INDEPENDENTLY BEFORE YOU RELY ON THEM.
+YOU ASSUME THE ENTIRE RISK OF USING THE SOFTWARE AND ITS RESULTS.
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+OWNER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+EXEMPLARY OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, RESULTS,
+RESEARCH, TIME, PROFITS, REVENUE OR GOODWILL, ARISING OUT OF OR RELATED
+TO THE SOFTWARE OR THIS AGREEMENT, HOWEVER CAUSED AND UNDER ANY THEORY
+OF LIABILITY (CONTRACT, TORT INCLUDING NEGLIGENCE, STRICT LIABILITY OR
+OTHERWISE), EVEN IF THE OWNER HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES. THE OWNER'S TOTAL LIABILITY FOR ALL CLAIMS ARISING OUT OF
+OR RELATED TO THE SOFTWARE OR THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT
+YOU PAID FOR THE SOFTWARE, IF ANY.
+
+Some jurisdictions do not allow certain warranties to be excluded or
+certain liabilities to be limited. In those jurisdictions, Sections 7
+and 8 apply to the greatest extent that the law allows.
+
+9. TERMINATION
+
+This Agreement is effective until it is terminated. It terminates
+automatically, without notice, if you fail to comply with any of its
+terms, and the Owner may revoke the permission in Section 2 at any
+time. When this Agreement terminates, you must stop using the Software
+and delete all copies of it. Sections 1, 3, 4, 5, 6, 7, 8, 9 and 10
+survive termination.
+
+10. GENERAL
+
+  (a) Updates. This Agreement applies to any update of the Software
+      that the Owner provides, unless the update comes with a different
+      agreement, in which case that agreement governs the update.
+
+  (b) Entire agreement. This Agreement is the entire agreement between
+      you and the Owner about the Software, and supersedes any earlier
+      understanding between you and the Owner about it.
+
+  (c) Severability. If any provision of this Agreement is held to be
+      unenforceable, it will be enforced to the maximum extent
+      permissible, and the remaining provisions remain in full effect.
+
+  (d) No waiver. A failure or delay by the Owner in enforcing any
+      provision of this Agreement is not a waiver of that provision.
+
+  (e) Assignment. You may not assign or transfer this Agreement, or any
+      of your rights under it. The Owner may assign it.
